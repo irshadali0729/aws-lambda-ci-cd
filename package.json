@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/irshadali0729/aws-lambda-ci-cd/issues"
   },
-  "homepage": "https://github.com/irshadali0729/aws-lambda-ci-cd#readme"
+  "homepage": "https://github.com/irshadali0729/aws-lambda-ci-cd#readme",
+  "devDependencies": {
+    "serverless": "^3.40.0"
+  }
 }
