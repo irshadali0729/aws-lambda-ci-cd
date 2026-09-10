@@ -1,0 +1,15 @@
+service: youtube-app
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: ap-south-1
+
+functions:
+  youtubeHello:
+    handler: hello.handler
+    events:
+      - http:
+          path: hello
+          method: get
